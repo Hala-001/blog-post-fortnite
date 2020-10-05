@@ -1,0 +1,101 @@
+@import "Blog post.css";
+@import "style1.css";
+@import "style2.css";
+
+.Blog{
+       
+width: 1450px;
+border: 10px solid rgb(255, 255, 255);
+padding: 10px;
+margin: 10px;
+font-size: 20px;
+font-family:cursive, Arial, Helvetica, sans-serif; 
+border-radius: 30px;
+}
+   
+.Content{
+display: grid;
+grid-template-columns: auto 400px 400px 400px;
+background-color: #e075ab;
+padding: 5px;
+border-radius: 30px;
+margin: 10px;
+
+}
+
+
+.grid-item{
+height: 400px;
+margin: 30px;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 12px;
+font-size: 30px;
+text-align: center;
+font-family:cursive, Arial, Helvetica, sans-serif; 
+border-radius: 30px;
+}
+
+
+.one{
+font-style: italic;
+font-weight: bold;
+font-size: 20px}
+.one{
+text-decoration: underline;
+}
+.footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+color:black;
+border-radius: 30px; 
+}
+     
+.fort1{
+font-style: italic;
+font-size: 20px;
+color: wheat;}
+.Navbar {
+list-style-type: none;
+margin: 0;
+padding: 0;
+ overflow: hidden;}
+.Navbaritem {
+float:right;}
+li a {
+display: block;
+padding: 8px;}
+.name{
+float:left;}
+         
+#title{
+color: wheat;
+}
+          
+@media only screen and (max-width: 600px) {
+
+
+.Content{
+display: grid;
+grid-template-columns: auto ;
+grid-template-rows: auto auto auto;
+background-color: #e075ab;
+padding: 5px;
+border-radius: 30px;
+margin: 10px;}
+.Navbaritem {
+float:left;
+}
+}
+@media (min-width: 600px) and (max-width:900px){
+.Content{
+display: grid;
+grid-template-columns: auto auto ;
+grid-template-rows: auto auto ;
+background-color: #e075ab;
+padding: 5px;
+border-radius: 30px;
+margin: 10px;}
+.Navbaritem {
+float:left;}
+} 

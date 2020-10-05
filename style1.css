@@ -1,0 +1,15 @@
+.button1{
+font-size: 20px;
+font-family: cursive, Arial, Helvetica, sans-serif;
+border-radius: 30px;
+}
+.button2{
+font-family:cursive, Arial, Helvetica, sans-serif;
+font-size: 20px;
+border-radius: 30px;}
+img {
+border-radius: 50%;}
+a:hover {
+color:red;}
+a:active {
+color: rgb(144, 198, 207);}
