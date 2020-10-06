@@ -35,7 +35,7 @@ color: steelblue;}
 #text2{color: salmon;}
 #text3{color: slategray;}
 
-
+.quotes{quotes: '"' '"' "'" "'";}
 .archives{
 font-size: 25px;
 }
