@@ -1,71 +1,110 @@
-
-.item1 { grid-area: header; }
-.item2 { grid-area: main; }
-.item3 { grid-area: menu; }
-.item4 { grid-area: footer; }
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: main;
+}
+.item3 {
+  grid-area: menu;
+}
+.item4 {
+  grid-area: footer;
+}
 
 .grid-container {
-display: grid;
-grid-template-areas:
-'header header header header header header '
-'main main main meun meun menu '
-'footer footer footer footer footer footer';
-grid-gap: 10px;
-background-color: wheat;
-padding: 10px;}
+  display: grid;
+  grid-template-areas:
+    "header header header header header header "
+    "main main main meun meun menu "
+    "footer footer footer footer footer footer";
+  grid-gap: 10px;
+  background-color: wheat;
+  padding: 10px;
+}
 .grid-container > div {
-background-color: rgba(255, 255, 255, 0.8);
-text-align: center;
-padding: 20px ;
-font-size: 30px;
-} 
-
-.title{
-font-family:cursive, Arial, Helvetica, sans-serif;}
-.Author{
-font-size: 15px;
-font-weight: bold;}
-.text{
-font-size: 25px;
-font-family:cursive, Arial, Helvetica, sans-serif;}
-.fig {font-size: 25px;
-font-family:cursive, Arial, Helvetica, sans-serif; 
-color: steelblue;}
-#text1{color: rosybrown;}
-#text2{color: salmon;}
-#text3{color: slategray;}
-
-.quotes{quotes: '"' '"' "'" "'";}
-.archives{
-font-size: 25px;
-}
-.Elsewhere{
-font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
 }
 
-@media (min-width: 600px) and (max-width:900px){
-.text{
-font-size: 20px;}
-.fig {font-size: 20px;}}
+.title {
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+.Author {
+  font-size: 15px;
+  font-weight: bold;
+}
+.text {
+  font-size: 25px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+.fig {
+  font-size: 25px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  color: steelblue;
+}
+#text1 {
+  color: rosybrown;
+}
+#text2 {
+  color: salmon;
+}
+#text3 {
+  color: slategray;
+}
+
+.quotes {
+  quotes: '"' '"' "'" "'";
+}
+.archives {
+  font-size: 25px;
+}
+.Elsewhere {
+  font-size: 25px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .text {
+    font-size: 20px;
+  }
+  .fig {
+    font-size: 20px;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+
+  grid-gap: 10px;
+  background-color: wheat;
+  padding: 10px;
+
+
+}.img1 {
+  width: 200px;
+  height: 200px;
+}}
 
 @media only screen and (max-width: 600px) {
- 
-.text{
-font-size: 20px;}
-.fig {font-size: 20px;}
-  
+  .text {
+    font-size: 20px;
+  }
+  .fig {
+    font-size: 20px;
+  }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
 
-.grid-container {
-display: grid;
-grid-template-columns: 300px 1fr;
-      
-grid-gap: 10px;
-background-color: wheat;
-padding: 10px;
-}
+    grid-gap: 10px;
+    background-color: wheat;
+    padding: 10px;
+  }
 
-.img1{width: 100px;
-height: 100px;}
-
+  .img1 {
+    width: 100px;
+    height: 100px;
+  }
 }

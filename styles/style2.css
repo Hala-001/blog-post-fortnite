@@ -1,19 +1,33 @@
-.body{background-color: #e075ab ;}
-#twooo{
-background-image: url("../images/tenor.gif");}
+.body {
+  background-color: #e075ab;
+}
+#twooo {
+  background-image: url("../images/tenor.gif");
+}
 
-#fourr{background-image: url("../images/tenor.gif");}
+#fourr {
+  background-image: url("../images/tenor.gif");
+}
 
-#three{background-image: url("../images/tenor.gif");}
-.Blog{background-color: thistle;}
+#three {
+  background-image: url("../images/tenor.gif");
+}
+.Blog {
+  background-color: thistle;
+}
 
-.grid-item{background-color: rgba(255, 255, 255, 0.8);}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
-.footer{background-color: thistle;}
+.footer {
+  background-color: thistle;
+}
 
-.button1{background-color: #a3738b;}
+.button1 {
+  background-color: #a3738b;
+}
 
-.button2{border: 2px solid  #a3738b;}
-    
-
-   
+.button2 {
+  border: 2px solid #a3738b;
+}
