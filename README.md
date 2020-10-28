@@ -17,7 +17,7 @@
       * Buttons.
       * Card.
     * Flexbox.
-    * CSS Grid
+    * CSS Grid.
     
     
     
